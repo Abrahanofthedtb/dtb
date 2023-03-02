@@ -1,0 +1,89 @@
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 20%;
+  margin-left: 40px;
+ 
+}
+
+div.gallery img {
+  width: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.garbage {
+  width: 39%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.Japan {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.Japan2 {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.caption {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+table {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-image: url('https://th.bing.com/th/id/R.3fe097a2e22571f30ed3dd88558bb765?rik=mtM39ajGIuznzg&riu=http%3a%2f%2fupload.turkcewiki.org%2fwikipedia%2fcommons%2fthumb%2f9%2f98%2fJapan_location_map_with_side_map_of_the_Ryukyu_Islands.svg%2f1200px-Japan_location_map_with_side_map_of_the_Ryukyu_Islands.svg.png&ehk=Wii%2bdqSP6%2fffHPMTWdFjlUEYvwBYGYAKLG29LKqvMoE%3d&risl=&pid=ImgRaw&r=0');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.meg {
+  color:magenta;
+  font-family: Arial, Helvetica, sans-serif;
+}
